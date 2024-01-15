@@ -27,7 +27,6 @@ int game(int maxnum){
         }
 
     } while (arvaus != satunnaisluku);
-
     return arvaukset;
 
 }
