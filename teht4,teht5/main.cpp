@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-    kerrostalo kerrost;
+    kerrostalo *kerrost = new kerrostalo();
 
-    int hinta = 1;
-    int kulutus = kerrost.laskeKulutus(hinta);
+    double hinta = 1;
+    double kulutus = kerrost->laskeKulutus(hinta);
 
     cout << "Koko kerrostalon kulutus hinnalla " << hinta << ": " << kulutus << endl;
 
