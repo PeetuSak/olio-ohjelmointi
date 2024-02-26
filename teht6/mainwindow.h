@@ -25,3 +25,5 @@ private:
     QPushButton *countButton;
     QPushButton *resetButton;
 };
+
+
